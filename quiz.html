@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="score" id="score">
+            View Highscores
+        </div>
+        <div class="timer">Time: <span id="time">0</span></div>
+        </header>
+        <div class="container">
+            <div class="start" id="start">
+                <h1> Coding Quiz Challenge</h1>
+  <p>Try to answer the following code-related question with in the time limit. Keep in mind that incorrect answers will penalize your score time by ten seconds.</p>
+  <button id="start-btn">Start Quiz</button>
+</div>
+
+<div class="question" id="question">
+    <div class="question-box">
+        <div class="title" id="question-title">
+        </div>
+        <div class="question-btn" id="answer-btn">
+        </div>
+    </div>
+</div>
+
+<div class="end" id="end">
+    <div class="title">
+        Finished!
+    </div>
+    <p>
+        Your final score is <span id="final"></span>
+    </p>
+    <div class="input">
+        Enter initials: <input type="text" id="finalInput"> <button id="finalSubmit">Submit</button>
+         </div>
+     </div>
+</div>
+
+<div class="history" id="history">
+    <div class="history-box">
+        <div class="scores">
+            <div class ="title">
+                HighScores
+            </div>
+            <div class="score-box" id="score-box">
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="back">Go Back</button>
+            <button id="clearHistory">Clear history</button>
+        </div>
+    </div>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/question.js"></script>
+</body>
+</html>

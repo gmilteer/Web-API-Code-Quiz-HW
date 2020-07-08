@@ -8,6 +8,11 @@ const questions = [
         title: "The condition in an if / else statement is enclosed within ____.",
         choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
         answer: "parentheses"
+    },
+    {
+        title: "Arrays in Javascript can be used to store _____.",
+        choices: ["numbers and strings", "other arrays", "booleans","all of the above"],
+        answer : "all of the above"
     }
 ];
 
@@ -23,7 +28,7 @@ $(function () {
     let final = $('#final');
     let finalSubmit = $('#finalSubmit');
     let finalInput = $('#finalInput');
-    let timeCount = questions.length * 15;
+    let timeCount = questions.length * 10;
     let curentQuestion = 0;
     let interval;
 
@@ -102,7 +107,7 @@ $(function () {
             succsessSound();
         } else {
             errorSound();
-            timeCount -= 15;
+            timeCount -= 10;
             if (timeCount < 0) {
                 time.text(0);
                 final.text(0);
@@ -143,5 +148,20 @@ $(function () {
         start.removeClass('fade');
         curentQuestion = 0;
         time.text(0);
-        timeCount = questions.length * 15;
+        timeCount = questions.length * 10;
     });
+    //   end finish
+
+    sound
+
+    function succsessSound() {
+        var audio = new Audio('./audio/325112__fisch12345__success.wav');
+        audio.play();
+    }
+    function errorSound() { 
+        var audio = new Audio('./audio/478191__jonnyruss01__beep-error-1.wav');
+        audio.play();
+    }
+
+    //end sound
+});

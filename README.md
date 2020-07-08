@@ -3,4 +3,4 @@ I  a timed code quiz with multiple-choice questions. This app will run in the br
 As a coding bootcamp student
 I want to be able to take a timed quiz on JavaScript fundamentals that stores high score so that I can gauge my progress compared to my peers.
 
-Below is the link to my deplyed url 
+Below is the link to my deplyed url https://gmilteer.github.io/Web-API-Code-Quiz-HW/.

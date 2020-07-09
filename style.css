@@ -33,8 +33,6 @@ header .score {
     padding: 10px 15px; }
   
   .start {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -68,13 +66,9 @@ header .score {
     margin: 0 auto; }
   
   .question.active {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex; }
   
   .question-box {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -87,8 +81,6 @@ header .score {
     margin-bottom: 20px; }
   
   .question-box .question-btn {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -102,8 +94,6 @@ header .score {
     color: #fff;
     background: green;
     cursor: pointer;
-    width: -webkit-max-content;
-    width: -rob-max-content;
     width: max-content;
     margin-bottom: 10px; }
   
@@ -116,8 +106,6 @@ header .score {
     margin: 0 auto; }
   
   .end.active {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -131,8 +119,6 @@ header .score {
     margin-bottom: 20px; }
   
   .end .input {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -149,8 +135,6 @@ header .score {
     color: #fff;
     background: green;
     cursor: pointer;
-    width: -webkit-max-content;
-    width: -moz-max-content;
     width: max-content;
     margin-left: 10px; }
   
@@ -161,8 +145,6 @@ header .score {
     display: none; }
   
   .history.active {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -189,8 +171,6 @@ header .score {
   
   .history-box .scores .score-box {
     margin-top: 25px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
@@ -205,8 +185,6 @@ header .score {
     margin-left: 10px; }
   
   .history-box .buttons {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -223,8 +201,6 @@ header .score {
     color: #fff;
     background: green;
     cursor: pointer;
-    width: -webkit-max-content;
-    width: -moz-max-content;
     width: max-content;
     margin-bottom: 10px; }
   

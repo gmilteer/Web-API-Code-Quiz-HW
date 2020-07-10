@@ -9,4 +9,3 @@ Below is the link to my deplyed url
 
 The following image demonstrates the application functionality:
 ![](./Images/API-Code-Quiz.png)
-
